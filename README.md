@@ -10,7 +10,7 @@
   <pre id="log"></pre>
 
   <script>
-    const DATA_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSwrw8_nTV7TZ-k4vmgIJs6-mBONZNxHo16GCFr42Nv-mxUVmGpFq56TmxoeWG2lIw57D1gEBUrOFyM/pubhtml";
+    const DATA_URL = "https://gist.githubusercontent.com/netj/8836201/raw/iris.csv";
 
     async function fetchCSVData(url) {
       const res = await fetch(url);
